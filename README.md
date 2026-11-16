@@ -34,7 +34,7 @@ Upstream: https://github.com/ag-ui-protocol/ag-ui
 零依赖，Python ≥ 3.9：
 
 ```bash
-git clone git@github-linmoxi33:linmoxi33/ag-ui-stream-verify.git
+git clone https://github.com/linmoxi33/ag-ui-stream-verify.git
 cd ag-ui-stream-verify
 python3 tests/run.py                     # 12 passed
 python3 agui_stream_verify.py examples/in/clean.sse
