@@ -1,0 +1,33 @@
+{
+  "ok": false,
+  "failed": true,
+  "file": "examples/in/silent-outcome.sse",
+  "format": "sse",
+  "mode": "strict+enforce-sim",
+  "events": 2,
+  "counts": {
+    "error": 1,
+    "warning": 0,
+    "silent_accept": 1
+  },
+  "silent_accepts": [
+    {
+      "code": "E011",
+      "level": "error",
+      "event_index": 1,
+      "event_type": "RUN_FINISHED",
+      "message": "RUN_FINISHED.outcome.type must be a string",
+      "silent_accept": true
+    }
+  ],
+  "findings": [
+    {
+      "code": "E011",
+      "level": "error",
+      "event_index": 1,
+      "event_type": "RUN_FINISHED",
+      "message": "RUN_FINISHED.outcome.type must be a string",
+      "silent_accept": true
+    }
+  ]
+}

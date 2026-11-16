@@ -1,0 +1,4 @@
+{"type":"TEXT_MESSAGE_CONTENT","messageId":"m-9","delta":"orphan"}
+{"type":"RUN_STARTED","threadId":"t-3","runId":"r-3"}
+{"type":"RUN_ERROR","message":"boom"}
+{"type":"TEXT_MESSAGE_START","messageId":"m-9","role":"assistant"}
